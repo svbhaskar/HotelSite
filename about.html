@@ -71,7 +71,7 @@
           integer lorem. Enim, eleifend eget pellentesque aenean nibh ut. Tortor hendrerit facilisi </p>
       </div>
       <div class="ourstoryimg col-md-6 ourstory_img1">
-        <img src="/images/1.png" alt="" class="ourStory_img1 img-fluid">
+        <img src="/images/1.png" alt="ourStory_img1" class="ourStory_img1 img-fluid">
 
       </div>
     </div>
@@ -82,10 +82,11 @@
   <div class="ourstaff">
     <h1 class="staff-heading">Our Staff</h1>
     <div class="our">
-      <div class="grid">
-        <div class="grid-item">
-          <div class="card">
-            <img class="card-img" src="/images/chef1.png" alt="Rome" />
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card ">
+            <img class="card-img" src="/images/chef1.png" alt="chef1" />
             <div class="card-content">
 
               <p class="card-text">
@@ -96,9 +97,10 @@
             </div>
           </div>
         </div>
-        <div class="grid-item">
-          <div class="card">
-            <img class="card-img" src="/images/chef2.png" alt="Grand Canyon" />
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card ">
+            <img class="card-img" src="/images/chef2.png" alt="chef2" />
             <div class="card-content">
 
               <p class="card-text">
@@ -109,13 +111,15 @@
             </div>
           </div>
         </div>
-        <div class="grid-item">
-          <div class="card">
-            <img class="card-img" src="/images/photo-1577219491135-ce391730fb2c 1.png" alt="Maldives" />
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card ">
+            <img class="card-img" src="/images/photo-1577219491135-ce391730fb2c 1.png" alt="chef3" />
             <div class="card-content">
 
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ultricies volutpat semper sed eu aliquet
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ultricies volutpat semper sed eu
+                aliquet
                 neque massa. Porta elementum ut in felis mauris auctor.
               </p>
               <button class="card-btn">Read More </button>
@@ -123,24 +127,22 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- OUR STAFF END  -->
+      <!-- OUR STAFF END  -->
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-    </script>
-  <script>
-    window.addEventListener('scroll', function () {
-      let nav = document.querySelector('nav');
-      let windowPos = window.scrollY > 0;
-      nav.classList.toggle('scrolled', windowPos);
-    })
-  </script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+        </script>
+      <script>
+        window.addEventListener('scroll', function () {
+          let nav = document.querySelector('nav');
+          let windowPos = window.scrollY > 0;
+          nav.classList.toggle('scrolled', windowPos);
+        })
+      </script>
 </body>
 
 </html>
