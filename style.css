@@ -16,7 +16,7 @@ input {
   border-left-style: hidden;
   border-bottom-style: groove white;
   background: none;
-  width: 170px;
+  width: 190px;
   padding: 1px;
 }
 
@@ -25,8 +25,8 @@ input {
   
 }
 form{
-  padding:10px;
-  margin-left: 50px;
+  padding-left: 15px;
+  padding-top: 40px;
 }
 /* input css end  */
 
@@ -136,8 +136,9 @@ overflow: hidden;
   position: relative;
   color: white;
   font-size: 1.5em;
-  left: 10px;
-  text-align: left;
+  left: 15px;
+  top: 15px;
+  font-weight: bolder;
 }
 
 .main_btn{
@@ -147,6 +148,7 @@ overflow: hidden;
   background: #fffedf;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  height: 32px;
 }
 
 /* hero content end  */
@@ -207,6 +209,12 @@ box-shadow: 0px 4px 17px rgba(238, 231, 231, 0.05);
 /* discover end  */
 
 /* media query  */
+@media only screen and (max-width: 980px){
+  .hero_box{
+    height: 180px;
+  }
+}
+
 @media only screen and (max-width: 1024px){
   .hero_box ul li{
     padding-right: 55px;
@@ -231,7 +239,7 @@ box-shadow: 0px 4px 17px rgba(238, 231, 231, 0.05);
     font-size: 28px;
   }
   .hero_box{
-    width: 95%;
+    width: 101%;
   }
   .hero_box button{
     position: relative;
@@ -252,6 +260,9 @@ box-shadow: 0px 4px 17px rgba(238, 231, 231, 0.05);
   }
   .form{
     margin: auto;
+  }
+  form{
+    padding-top: 10px;
   }
 }
 
@@ -430,3 +441,22 @@ box-shadow: 0px 4px 17px rgba(238, 231, 231, 0.05);
   width: 80%;
 }
 /* card end  */
+
+/* footer  */
+
+.footer{
+  background: rgb(117, 206, 201);
+  overflow-x: hidden;
+}
+
+.footer li{
+  list-style-type: none;
+}
+
+.footer_right li svg,.footer_centre li{
+  margin: 10px;
+}
+
+.footer_left,.footer_centre,.footer_right{
+  margin: 1em;
+}
